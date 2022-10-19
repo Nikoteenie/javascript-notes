@@ -23,6 +23,7 @@ nav a {
   margin-top: 5%;
   max-width: 500px;
   padding: 20px;
+  border-radius: 12px;
 }
 
 .main-content {
