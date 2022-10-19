@@ -1,0 +1,78 @@
+body {
+background-image: url('../style/images/comp.gif');
+background-size: 100px;
+}
+
+nav {
+  background-color: rgba(295, 295,295, .95);
+  padding: 10px;
+}
+
+nav a {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.main-image {
+  background-color: rgba(295, 295,295, .95);
+  margin: 0 auto;
+  margin-top: 5%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.main-content {
+    margin: 5px auto;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+   text-align: center;
+}
+.content {
+  margin: 5% auto;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+   text-align: center;
+}
+
+h1,
+h2
+{
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+/* ul { 
+ list-style: none;
+ display: inline;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+li {
+   margin: 5px;
+}
+li a {
+  font-size: 20px;
+
+}
+*/
+
+a {
+  margin: 5px;
+ 
+}
+img {
+  display: inline;
+  margin: 0 auto;
+}
