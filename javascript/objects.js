@@ -1,7 +1,7 @@
 // OBJECTS
 
 /*OBJECT LITERALS
-organized using key-value pairs : which can be any data type (functions/other objects)
+organized using key:value pairs : which can be any data type (functions/other objects)
 */
 let objectLiteral = {
   'Your Name': 'Nicole',

@@ -1,6 +1,6 @@
 /*HIGH ORDER FUNCTIONS 
-(functions that accept other functions arguements 
-  and change the name of the function) 
+functions that accept other functions arguements 
+  and change the name of the function
   */
 
   const aVeryLongName = () => {

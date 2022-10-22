@@ -1,4 +1,4 @@
-//Loops (repeats a set of instructions until speicified condition is met)
+//Loops (repeats a set of instructions until specified condition is met)
 
 /* FOR
 1. initialization starts loop
@@ -9,7 +9,7 @@ if true = runs // false = stop
 console.log("First For Loop:");
 
 for (let counter = 0; counter < 4; counter++) {
-//Initialization ^, stopping condition, iteration statement
+  //Initialization ^, stopping condition, iteration statement
   console.log(counter);
 }
 /*
@@ -73,7 +73,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
 1. Nested for loop = compares elementsin two arrays
 2. Each round of outer for loop, the inner for loop runs and completes
 */
-console.log('Nested Loop:')
+console.log("Nested Loop:");
 
 const myArray = [6, 19, 20];
 const yourArray = [19, 81, 2];
@@ -87,7 +87,7 @@ for (let i = 0; i < myArray.length; i++) {
 ///////////////////////////////////////////////////////////////
 
 // WHILE (use when you're not sure how many times your loop should run)
-console.log('While Loop:')
+console.log("While Loop:");
 
 let count = 1;
 while (count < 10) {
@@ -100,23 +100,25 @@ while (count < 10) {
 /* DO WHILE
 Do task ATLEAST once and keep doing it until specified condition is NO LONGER met */
 
-console.log('Do While Loop 1:')
+console.log("Do While Loop 1:");
 
-let countString = '';
+let countString = "";
 let i = 0;
-do { countString = countString + i; i++ 
+do {
+  countString = countString + i;
+  i++;
 } while (i < 5);
-console.log(countString)
+console.log(countString);
 
 //code block changes countString by adding i to it
 
 console.log("Do While Loop 2:");
 
-let cupsOfSugarNeeded = 2
-let cupsAdded = 0
+let cupsOfSugarNeeded = 2;
+let cupsAdded = 0;
 do {
-  cupsAdded++
-  console.log(cupsAdded + ' cups was added')
+  cupsAdded++;
+  console.log(cupsAdded + " cups was added");
 } while (cupsAdded < cupsOfSugarNeeded);
 
 ///////////////////////////////////////////////////////////////
@@ -124,14 +126,12 @@ do {
 /* BREAK KEYWORD
 "break" out of loop from within loops block
  */
-console.log("Using Break Keyword:"); 
+console.log("Using Break Keyword:");
 
-for (let i=0; i < 99; i++) {
+for (let i = 0; i < 99; i++) {
   if (i > 2) {
-    break; 
+    break;
   }
-  console.log('Banana') 
+  console.log("Banana");
 }
-console.log('Orange')
-
-
+console.log("Orange");
