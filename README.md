@@ -1,6 +1,6 @@
 # javascript--notes
 
-*** Here lies my Codecademy JavaScript Notes ***
+**_ Here lies my Codecademy JavaScript Notes _**
 
 To use:
 
@@ -12,7 +12,6 @@ To use:
 
 4. Inspect the webpage and view the console to see the outputs of the .js files
 
-
-*** Now you can see your CodeCademy Intro to JavaScript Notes live in action!! ***
+**_ JavaScript Notes live in action!! _**
 
 Enjoy :)

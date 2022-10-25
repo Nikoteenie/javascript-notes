@@ -42,10 +42,7 @@ nav a:hover {
   text-align: center;
 }
 
-img {
-  display: block;
-  margin: 5% auto;
-}
+
 .content {
   margin: 5% auto;
   width: fit-content;
@@ -54,17 +51,22 @@ img {
   text-align: center;
   padding: 10px 20px;
 }
-
 h1,
 h2 {
   text-align: center;
 }
 
 h1 {
-  color: black;
   font-size: 25px;
   padding-top: 10px;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 .btn {
   font-size: 13px;

@@ -126,14 +126,14 @@ if (isNightTime) {
 isNightTime
   ? console.log("Turn on the lights")
   : console.log("Turn off the lights");
-// Turn on lights           ^^true                            ^^false
+// Turn on lights          
 
 //example
 let favoriteSaying = "Love that";
 favoriteSaying === "Love that"
   ? console.log("I love that")
   : console.log("I dont love");
-// I love that                                ^^true                      ^^false
+// I love that                              
 ///////////////////////////////////////////////////////////////
 
 // ELSE IF (allows for more than 2 possible outcomes, add as many as you need)
