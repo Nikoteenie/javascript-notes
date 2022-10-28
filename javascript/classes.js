@@ -14,7 +14,7 @@ class CartoonTvShow {
 /*
 Tv Show is the class and invokes the constructor() everytime we create a new instance
 constructor accepts the name arguement
-we use this inisde the constructor because it refers tot the instance name property to 
+we use this inside the constructor because it refers to the instance name property to 
 the name arguement 
 */
 
@@ -59,7 +59,7 @@ look at previous class LiveActionTvShow
 const show = new LiveActionTvShow("Sabrina the Teenage Witch");
 // saved the variable liveAction to the LiveActionTvShow class
 
-//Create two insrances of LiveActionTvShow
+//Create two instances of LiveActionTvShow
 
 const firstShow = new LiveActionTvShow("The Midnight Club");
 //Created show name The Midnight Club

@@ -59,7 +59,7 @@ console.log(spaceship.color) //returns gold
 ///////////////////////////////////////////////////////////////
 
 /* METHODS
-are when the datat that is sotred on an object is a function
+are when the data that is stored on an object is a function
 
 example console.log() or Math.floor()
 console/Math = the global JS object
@@ -205,9 +205,31 @@ variable castMemeber is set to powerPuffGirls.cast allowing us to log the
 crew members roles and name 
 */ 
 
+console.log('this')
+
+const cellPhone = {
+  brand: 'apple',
+  powerOn() {
+    console.log('Your phone is powering on!')
+  },
+  logPhoneBrand: () => {
+    console.log(this.brand);
+
+  }
+}
+cellPhone.logPhoneBrand();
 
 
-
+const car = {
+  fuelType : 'gas',
+  turnLeft() {
+    console.log('Turning Left');
+  },
+  logFuelType() {
+    console.log(this.fuelType);
+  }
+};
+car.logFuelType();
 
 
 
