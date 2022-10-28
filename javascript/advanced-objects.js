@@ -75,10 +75,10 @@ console.log(person.fullName); // Doug Funny
 
 /*
 - get keyword followed by function
-- if..else conditinal to check if both _firstName & _lastName exist
+- if..else conditional to check if both _firstName & _lastName exist
 - access calling object using this (keyword)
 ----------------------------------------------------------------
-GETTERS can perform action on datat when getting property
+GETTERS can perform action on data when getting property
 they can return different values with the help of conditionals
 we can access properties of calling object using this
 
@@ -89,7 +89,7 @@ OR ELSE infinite call stack error
 ///////////////////////////////////////////////////////////////
 
 /* SETTERS
-reassign values of exisiting properties within an object
+reassign values of existing properties within an object
  */
 
 const dougsAge = {
@@ -103,7 +103,7 @@ const dougsAge = {
   },
 };
 dougsAge.age = 28;
-console.log(dougsAge._age); // 28 (it reassigned becasue it is a number)
+console.log(dougsAge._age); // 28 (it reassigned because it is a number)
 dougsAge.age = "old"; // 'Age has to be a number, duh!'
 
 dougsAge._age = "old"; // but still possible to directly reassign
@@ -128,7 +128,7 @@ const cartoonFactory = (firstName, faveColor, outfit, catchPhrase) => {
 /*
 the dollFactory has 4 parameters 
 for the object to represent specific dolls 
-we can call dollFactory with arguements and assign the return value of the variable
+we can call dollFactory with arguments and assign the return value of the variable
 */
 
 const girlCartoon = cartoonFactory(
@@ -216,7 +216,7 @@ const artPieceKeys = Object.keys(artPiece);
 console.log(artPieceKeys); //  prints keys in artPiece object as an array
 
 const artPieceEntries = Object.entries(artPiece);
-console.log(artPieceEntries); // lists entire object in seperate arrays with key:value pairs
+console.log(artPieceEntries); // lists entire object in separate arrays with key:value pairs
 
 const newArtPiece = Object.assign(
   { artOnDisplay: true, colors: "pink and green" },

@@ -9,7 +9,7 @@ console.log('-' + groceryItems); // callback function
 //adds - in front of each string listed in groceries
 
 /*
-.forEach takes an arguement of the callback function
+.forEach takes an argument of the callback function
 .forEach() loops through the array and executes a callback
 for each element
 return .forEach() is always undefined */
@@ -30,7 +30,7 @@ groceries.forEach(printGrocery)
 similar to .forEach() but prints 
 (although used in different circumstances)
 manipulates and returns new array
-calls in an array, takes an arguement of a 
+calls in an array, takes an argument of a 
 callback function and returns a new array
 */
 
@@ -45,8 +45,8 @@ console.log(bigNumbers); // [10,20,30,30,50]
 /* 
 numbers = array of numbers
 bigNumbers = stores return value of .map() and numbers
-numbers.map() uterates through each number and passes into the callback
-return number * 10 will execture on each number in numbers; saves the value 
+numbers.map() iterates through each number and passes into the callback
+return number * 10 will execute on each number in numbers; saves the value 
 and multiplies by 10 to new array
 */
 

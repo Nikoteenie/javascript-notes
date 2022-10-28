@@ -72,7 +72,7 @@ if (stopLight === "green" && pedestrians === 0) {
 
 // OR only one need to be true to return true
 if (stopLight === "green" || pedestrians === 1) {
-  console.log("Dont go!");
+  console.log("Don not go!");
 }
 // Don't go!
 

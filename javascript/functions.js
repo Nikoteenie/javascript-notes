@@ -2,7 +2,7 @@
 
 // The code in a function body runs only when called 
 function getGreeting() {
-  console.log('Hey Whatsup, Jimmy?')
+  console.log('Hey Whats up, Jimmy?')
 } 
 getGreeting(); // <-- good practice
 // can be called many times

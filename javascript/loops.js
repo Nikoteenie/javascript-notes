@@ -13,11 +13,11 @@ for (let counter = 0; counter < 4; counter++) {
   console.log(counter);
 }
 /*
-1. initalization: let counter = 0 
+1. initialization: let counter = 0 
 2. stopping condition: counter < 4 
 runs as long as iterate value (counter) is less than 4
 3. iteration statement: counter++ 
-each loop counter icncreases by 1 
+each loop counter increases by 1 
 first iterate counter = 0
 second = 1
 and so on 
