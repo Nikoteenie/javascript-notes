@@ -51,7 +51,7 @@ console.log("I have a " + myPet + ".");
 // I have a cat.
 ///////////////////////////////////////////////////////////////
 
-//String Interpolation uses Template Literals to emebed variables into a string
+//String Interpolation uses Template Literals to put variables into a string
 const aPet = "dog";
 console.log(`I have a ${aPet}.`);
 // I have a dog

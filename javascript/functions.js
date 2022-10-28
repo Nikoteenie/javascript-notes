@@ -1,10 +1,10 @@
 //FUNCTIONS (reusable block of code)
 
-// The code in a fuction body runs only when called 
+// The code in a function body runs only when called 
 function getGreeting() {
   console.log('Hey Whatsup, Jimmy?')
 } 
-getGreeting(); // <-- good pratice
+getGreeting(); // <-- good practice
 // can be called many times
 getGreeting();
 getGreeting();
@@ -18,7 +18,7 @@ function greetWorld() { // <-- this works because it uses the function declarati
   console.log("Hello World"); //
 }
 
-//let and const dont benefit from hoistng
+//let and const don't benefit from hoisting
 // function declaration and var can benefit from hoisting
 
 myBool = true
@@ -33,23 +33,23 @@ var myBool //Hoisted
 
 ///////////////////////////////////////////////////////////////
 
-// PARAMTERS AND ARGUEMENTS
+// PARAMETERS AND ARGUMENTS
 
-/* PARAMATERS: 
+/* PARAMETERS: 
 Allow functions to accept input to perform a task.
-Placeholder for info that will be passsed to the function when its called. 
+Placeholder for info that will be passed to the function when its called. 
 */
 
-/* ARGUEMENTS:
+/* ARGUMENTS:
 Values passed to the function
 */ 
 
 function calculateArea (width, height) {
-  //                    ^^Paramaters
-  console.log(width * height) // paramters are treated like variables in the function
+  //                    ^^Parameters
+  console.log(width * height) // parameters are treated like variables in the function
 }
 calculateArea ( 5, 9) 
-//             ^^Arguements 
+//             ^^Arguments 
 
 
 //another example
@@ -62,8 +62,8 @@ sayThanks('Hacker');
 ///////////////////////////////////////////////////////////////
 
 /*DEFAULT PARAMETERS 
-(allows parameters to have a predeterminded value in case there is
-NO arguement in the function or if its undefined when called)*/
+(allows parameters to have a predetermined value in case there is
+NO argument in the function or if its undefined when called)*/
 
 function greeting (name = 'Stranger') {
   console.log(`Hello ${name}`)
@@ -114,8 +114,8 @@ console.log(temperature)
 // 59
 
 /*
-1. getFahrenheit() is called with 15 and passes that arguement
-2. getFahrenheit() in function body calls multiplyNineFifths() and takes 15 as the number paramater
+1. getFahrenheit() is called with 15 and passes that argument
+2. getFahrenheit() in function body calls multiplyNineFifths() and takes 15 as the number parameter
 3. multiplyNineFifths() multiples 15 * 9/5 = 27 then in getFahrenheit() adds 32
 */ 
 
@@ -127,7 +127,7 @@ A function w/ no name is an Anonymous Function
 To define a function inside an expression use a function key word*/
 
 const calculateTheArea = function(width, height) {
-  //  ^^identifier     ^^keyword ^^paramater
+  //  ^^identifier     ^^keyword ^^parameter
   const area = width * height;
   return area;
 }
@@ -137,7 +137,7 @@ const calculateTheArea = function(width, height) {
 //ARROW FUNCTIONS (=>) removes need to type out function
 
 const theRectangleArea = (width, height) => {
-  //  ^^identifier       ^^paramater     ^^fat arrow
+  //  ^^identifier       ^^parameter     ^^fat arrow
   const area = width * height;
   return area;
 }
@@ -146,7 +146,7 @@ const theRectangleArea = (width, height) => {
 
 /* CONCISE BODY ARROW FUNCTIONS
 1. Single Parameter no ()
-  if it takes a 0 or more than one paramter use ()
+  if it takes a 0 or more than one parameter use ()
 2. Function body with one line no {}
     it will be auto returned "implicit return"
     contents of the block follow =>

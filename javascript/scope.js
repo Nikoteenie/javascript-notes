@@ -1,7 +1,7 @@
-//SCOPE (defines where a variable can be accesed)
+//SCOPE (defines where a variable can be accessed)
 
 //BLOCKS ({block} in function body and can only be accessed inside {})
-//GLOBAL (variuable declared out of blocks but can still be accessed by function)
+//GLOBAL (variable declared out of blocks but can still be accessed by function)
 
 const city = 'NYC'; // <--- GLOBAL
 function logCitySkyline() {

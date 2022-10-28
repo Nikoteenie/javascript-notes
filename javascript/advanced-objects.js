@@ -179,7 +179,7 @@ const band = {
   genre: "alternative rock",
   albums: {
     favorite: "Rubberneck",
-    other: "Feeler,",
+    other: "Feeler",
   },
 };
 //before

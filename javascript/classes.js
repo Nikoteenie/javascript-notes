@@ -12,14 +12,14 @@ class CartoonTvShow {
 }
 
 /*
-Tv Show is the class and invokes the constructor() everytime we create a new instance
-constructor accepts the name arguement
+Tv Show is the class and invokes the constructor() every time we create a new instance
+constructor accepts the name argument
 we use this inside the constructor because it refers to the instance name property to 
-the name arguement 
+the name argument 
 */
 
 /* INSTANCE
-an objects that contains the porperty names and methods
+an objects that contains the property names and methods
 of a class with unique property values
 */
 
@@ -100,12 +100,12 @@ class Media {
 //CHILD CLASS
 
 class TvShow extends Media {
-  // <-- extends makes the methods of the parent class avaible inside child class
+  // <-- extends makes the methods of the parent class available inside child class
   constructor(
     name,
-    style // <-- accepts 2 arguements / style is a new property
+    style // <-- accepts 2 arguments / style is a new property
   ) {
-    super(name); // <-- calls constructor() of parent class and passes these arguemetns back through parent class
+    super(name); // <-- calls constructor() of parent class and passes these arguments back through parent class
     this._style = style;
   }
 }

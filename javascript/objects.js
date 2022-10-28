@@ -29,7 +29,7 @@ let spaceship = {
 
 console.log(spaceship.homePlanet); // returns 'Earth'
 console.log(spaceship.color); // returns 'silver'
-spaceship.faveIceCream // returns undefined b/c the property doesnt exist
+spaceship.faveIceCream // returns undefined b/c the property does not exist
 
 
 /*BRACKET NOTATION []
@@ -47,7 +47,7 @@ returnAnyProp(spaceship, 'homePlanet'); // returns Earth
 /*PROPERTY ASSIGNMENT 
 Objects are mutable we can update them after we create them
 using dot/bracket notation and the assignment operator (=) to add
-new key-value pairs to an object or change an exisitng property
+new key-value pairs to an object or change an existing property
 */
 
 spaceship ['Fuel Type'] = 'Vegetable Oil';
@@ -141,10 +141,10 @@ const mySpaceship = {
 /* PASS BY REFERENCE
 objects are passed by reference.
 
-a variable assigned to an object into a function as an arguement
-computer interprets the paramater as pointing to space in memory that holds object
+a variable assigned to an object into a function as an argument
+computer interprets the parameter as pointing to space in memory that holds object
 
-fucntions which change the object properties muattes the object permanently 
+functions which change the object properties mutate the object permanently 
 (even if assigned to const)
  */
 
@@ -162,7 +162,7 @@ changedFaveColor(aboutMe);
 console.log(aboutMe.faveColor)// prints purple
 /* function changedFaveColor permanently change aboutMe */
 
-// Reassignment wouldnt work the same way
+// Reassignment would not work the same way
 
 
 ///////////////////////////////////////////////////////////////
@@ -201,7 +201,7 @@ ${powerPuffGirls.cast[castMember].name}`);
 /* lead: 'Blossom' second: 'Bubbles' third: 'Buttercup'
 
 iterated through each element of powerPuffGirls.cast object
-variable castMemeber is set to powerPuffGirls.cast allowing us to log the
+variable castMember is set to powerPuffGirls.cast allowing us to log the
 crew members roles and name 
 */ 
 

@@ -70,11 +70,11 @@ if (stopLight === "green" && pedestrians === 0) {
 }
 // Both are true and return Go!
 
-// OR only one need to be treu to return true
+// OR only one need to be true to return true
 if (stopLight === "green" || pedestrians === 1) {
   console.log("Dont go!");
 }
-// Dont go!
+// Don't go!
 
 // ! (Bang) reverses or negates the value of a boolean
 
@@ -132,7 +132,7 @@ isNightTime
 let favoriteSaying = "Love that";
 favoriteSaying === "Love that"
   ? console.log("I love that")
-  : console.log("I dont love");
+  : console.log("I don not love");
 // I love that                              
 ///////////////////////////////////////////////////////////////
 
@@ -149,7 +149,7 @@ if (theStopLight === "red") {
 }
 //slow down ;the first one that is true is executed
 
-// The Switch Keyword (alternative syntax instead of writign many else if statements)
+// The Switch Keyword (alternative syntax instead of writing many else if statements)
 
 //before
 let beforeItem = "papaya";

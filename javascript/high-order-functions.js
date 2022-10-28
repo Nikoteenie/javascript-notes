@@ -1,5 +1,5 @@
 /*HIGH ORDER FUNCTIONS 
-functions that accept other functions arguements 
+functions that accept other functions arguments 
   and change the name of the function
   */
 
@@ -16,7 +16,7 @@ functions that accept other functions arguements
 
   /* FUNCTIONS AS PARAMETERS
   High Order accepts other functions as parameters, returns a function or both
-  Callback function passes in function itself by using fucntion name without ()
+  Callback function passes in function itself by using function name without ()
   */
 
   const highOrderFunction = param => {
@@ -38,7 +38,7 @@ functions that accept other functions arguements
   2. Higher Order function named anotherFunction wants to be called
   in highOrderFunction
   
-  3. Invoke highOrderFunction passing anotherFunction as an arguement
+  3. Invoke highOrderFunction passing anotherFunction as an argument
   fulfilling what it wants (as stated in 2)
   */
 

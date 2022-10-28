@@ -31,9 +31,9 @@ for (let loop = 5; loop < 11; loop++) {
 ///////////////////////////////////////////////////////////////
 
 /*LOOPS IN REVERSE
-1. Iterator variable: highest desired value in intialization expression
+1. Iterator variable: highest desired value in initialization expression
 2. Stopping condition: iterator variable; less than desired amount
-3. Iterator descreses for each oteration
+3. Iterator decreases for each iteration
 */
 console.log("Loop Unreversed:");
 //before
@@ -68,9 +68,9 @@ for (let i = 0; i < vacationSpots.length; i++) {
 
 ///////////////////////////////////////////////////////////////
 
-/* NESTED LOOPS (A loop running inisde another loop)
+/* NESTED LOOPS (A loop running inside another loop)
 
-1. Nested for loop = compares elementsin two arrays
+1. Nested for loop = compares elements in two arrays
 2. Each round of outer for loop, the inner for loop runs and completes
 */
 console.log("Nested Loop:");
@@ -98,7 +98,7 @@ while (count < 10) {
 ///////////////////////////////////////////////////////////////
 
 /* DO WHILE
-Do task ATLEAST once and keep doing it until specified condition is NO LONGER met */
+Do task AT LEAST once and keep doing it until specified condition is NO LONGER met */
 
 console.log("Do While Loop 1:");
 

@@ -53,7 +53,7 @@ and multiplies by 10 to new array
 ///////////////////////////////////////////////////////////////
 
 /* .filter()
-returns an array of elements after filtering out certain elemetns 
+returns an array of elements after filtering out certain elements 
 from original array.
 should return true/false
 when callback function returns true it is added to the new array
@@ -64,7 +64,7 @@ const shortWords = words.filter(word => {
   return word.length < 6;
 })
 
-console.log(words) // uneffected array
+console.log(words) // unaffected array
 console.log(shortWords) // array missing 'pillow' because its is 6 characters long
 
 /*
@@ -89,7 +89,7 @@ console.log(lessThan10) //3
 
 /*
 returns Index of 1st elements that is true
-if there isnt an element that satisifies the call back it returns -1
+if there is not an element that satisfies the call back it returns -1
 */
 
 const animals = [
@@ -149,8 +149,8 @@ Iteration  accumulator  currentValue  Return
 
   /*
    .reduce can also have a second parameter to set 
-  the value of the initail accumulator
-  (1st arguement is the call back function)
+  the value of the initial accumulator
+  (1st argument is the call back function)
   */
 
 const aNumber = [1, 2, 4, 10];
