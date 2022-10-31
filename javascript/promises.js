@@ -212,7 +212,7 @@ returns a SINGLE promise which is settled in 2 ways:
 - RESOLVES : is returned with array containing 
 resolved value from each promise in teh arguments array
 
-- REJECTS : rejects with the reason promise rejects (called falling fast)
+- REJECTS : rejects with the reason promise rejects (called failing fast)
 
 */
 
