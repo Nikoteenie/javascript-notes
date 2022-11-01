@@ -15,7 +15,7 @@
  
  6. You now can now view the various outputs of the .js files 
  
- 7. Now simultneously view the webpage and the .js files for the full experience!
+ 7. Now simultaneously view the webpage and the .js files for the full experience!
 
    _Learn & Enjoy_ 😉
 

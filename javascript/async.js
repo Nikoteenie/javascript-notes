@@ -1,4 +1,7 @@
 /* ASYNC AWAIT
+**console does not reflect well for this section**
+
+
 actions that we can wait on while working on other tasks
 
 event-loop : executes tasks while async is completing

@@ -110,3 +110,27 @@ footer a {
 footer a:hover {
   color: #00ff11;
 }
+
+.request {
+   border: 2px solid black;
+   max-width: 500px;
+   padding: 20px;
+   background-color: white;
+}
+
+.request #quote, #author {
+  font-size: 15px;
+  }
+
+  .request #btn-quote {
+ color:#00ff11;
+ background-color: black;
+ border: none;
+ padding: 8px;
+ margin-top: 10px;
+ transition: 0.05s ease-in-out;
+}
+.request #btn-quote:hover {
+  color: black;
+  background-color: #00ff11;
+}
