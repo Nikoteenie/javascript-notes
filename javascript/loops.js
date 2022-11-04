@@ -135,3 +135,30 @@ for (let i = 0; i < 99; i++) {
   console.log("Banana");
 }
 console.log("Orange");
+
+//EXAMPLE FROM ASSESSMENT
+// "Coding Challenge #3: What’s for dinner?"
+
+let restaurants = [
+  "Applebees",
+  "Panera Bread",
+  "Popeyes",
+  "Chopt",
+  "Chick-fil-A",
+  "Cheesecake Factory",
+  "Five Guys",
+];
+
+function randomRestaurant(numOfRestaurants) {
+  let randomRestaurantList = [];
+
+  for (let i = 0; i < numOfRestaurants; i++) {
+    const makeRandomResturants =
+      restaurants[Math.floor(Math.random() * restaurants.length)];
+    randomRestaurantList.push(makeRandomResturants);
+  }
+  return randomRestaurantList;
+}
+
+console.log(randomRestaurant(3)); // an array of 3 random restaurants
+console.log(randomRestaurant(5)); // an array of 5 random restaurants

@@ -126,14 +126,14 @@ if (isNightTime) {
 isNightTime
   ? console.log("Turn on the lights")
   : console.log("Turn off the lights");
-// Turn on lights          
+// Turn on lights
 
 //example
 let favoriteSaying = "Love that";
 favoriteSaying === "Love that"
   ? console.log("I love that")
   : console.log("I don not love");
-// I love that                              
+// I love that
 ///////////////////////////////////////////////////////////////
 
 // ELSE IF (allows for more than 2 possible outcomes, add as many as you need)
@@ -179,3 +179,71 @@ switch (afterItem) {
     break;
 }
 //invalid item
+
+//EXAMPLE FROM ASSESSMENT OF SWITCH
+//"Coding Challenge #2: Computer Store"
+function itemPrice(item) {
+  switch (item) {
+    case "computer":
+      console.log("$500");
+      break;
+    case "mouse":
+      console.log("$10");
+      break;
+    case "case":
+      console.log("$25");
+      break;
+    case "router":
+      console.log("$100");
+      break;
+    default:
+      if (typeof item != "string") {
+        console.log("You need to input the name of the item.");
+      } else {
+        console.log("We do not carry that item :(");
+      }
+      break;
+  }
+}
+itemPrice("case"); // $25
+itemPrice("things"); // We do not carry that item :(
+itemPrice(55); // You need to input the of the item.
+
+//EXAMPLE from ASSESSMENT
+// "Coding Challenge #1: Basketball Score"
+
+let freeThrowPointValue = 1;
+let midRangePointValue = 2;
+let threePointersPointValue = 3;
+function totalBasketballScore(freeThrows, midRange, threePointers) {
+  if (
+    typeof freeThrows === "number" &&
+    typeof midRange === "number" &&
+    typeof threePointers === "number"
+  ) {
+    return (
+      freeThrowPointValue * freeThrows +
+      midRangePointValue * midRange +
+      threePointersPointValue * threePointers
+    );
+  } else {
+    return "You need to input a number!";
+  }
+}
+console.log(totalBasketballScore(2, 3, 4)); // 20
+console.log(totalBasketballScore("2", 3, 4)); // You need to input a number!
+
+//EXAMPLE from ASSESSMENT
+// "Coding Challenge #4: Leap Year"
+
+function isLeapYear(year) {
+  if (year % 4 === 0 && year % 100 != 0) {
+    return true;
+  } else if (year % 100 === 0 && year % 400 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isLeapYear(2000)); //true
+console.log(isLeapYear(1700)); //false
