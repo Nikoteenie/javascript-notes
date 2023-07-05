@@ -13,7 +13,7 @@
 
  5. Right click and click Inspect on the webpage and view the console tab
  
- 6. You now can now view the various outputs of the .js files 
+ 6. You can now view the various outputs of the .js files 
  
  7. Now simultaneously view the webpage and the .js files for the full experience!
 
